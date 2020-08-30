@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Starsword" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Starsword" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lsfml-audio-d" />
+					<Add option="-lsfml-graphics-d" />
+					<Add option="-lsfml-window-d" />
+					<Add option="-lsfml-system-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Starsword" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lsfml-audio" />
+					<Add option="-lsfml-graphics" />
+					<Add option="-lsfml-window" />
+					<Add option="-lsfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-DSFML_DYNAMIC" />
+		</Compiler>
+		<Unit filename="Engine/Actor.cpp" />
+		<Unit filename="Engine/Actor.hpp" />
+		<Unit filename="Engine/Animator.cpp" />
+		<Unit filename="Engine/Animator.hpp" />
+		<Unit filename="Engine/Application.cpp" />
+		<Unit filename="Engine/Application.hpp" />
+		<Unit filename="Engine/Level.cpp" />
+		<Unit filename="Engine/Level.hpp" />
+		<Unit filename="Engine/Object.cpp" />
+		<Unit filename="Engine/Object.hpp" />
+		<Unit filename="Game/LevelGame.cpp" />
+		<Unit filename="Game/LevelGame.hpp" />
+		<Unit filename="Game/Pawn.cpp" />
+		<Unit filename="Game/Pawn.hpp" />
+		<Unit filename="Game/Player.cpp" />
+		<Unit filename="Game/Player.hpp" />
+		<Unit filename="Game/PlayerAnimator.cpp" />
+		<Unit filename="Game/PlayerAnimator.hpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

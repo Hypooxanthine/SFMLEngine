@@ -1,0 +1,90 @@
+# depslib dependency file v1.0
+1593262430 source:f:\code\projets\c++\starsword\main.cpp
+	<iostream>
+	"Engine/Application.hpp"
+	"Game/LevelGame.hpp"
+
+1593215444 f:\code\projets\c++\starsword\engine\application.hpp
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1593215467 source:f:\code\projets\c++\starsword\engine\application.cpp
+	"Application.hpp"
+	"Level.hpp"
+	"Object.hpp"
+
+1593215023 source:f:\code\projets\c++\starsword\engine\level.cpp
+	"Level.hpp"
+	"Application.hpp"
+	"Actor.hpp"
+	"Animator.hpp"
+
+1593214841 f:\code\projets\c++\starsword\engine\level.hpp
+	<iostream>
+	"Object.hpp"
+
+1593116491 source:f:\code\projets\c++\starsword\engine\object.cpp
+	"Object.hpp"
+	"Application.hpp"
+
+1593221093 f:\code\projets\c++\starsword\engine\object.hpp
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1593212343 source:f:\code\projets\c++\starsword\game\pawn.cpp
+	"Pawn.hpp"
+	"../Engine/Animator.hpp"
+
+1593211647 f:\code\projets\c++\starsword\game\pawn.hpp
+	"../Engine/Actor.hpp"
+
+1593206185 source:f:\code\projets\c++\starsword\engine\actor.cpp
+	"Actor.hpp"
+	"Animator.hpp"
+
+1593208242 source:f:\code\projets\c++\starsword\engine\pawn.cpp
+	"Pawn.hpp"
+	"Animator.hpp"
+
+1593111793 f:\code\projets\c++\starsword\engine\pawn.hpp
+	"Actor.hpp"
+
+1593190757 f:\code\projets\c++\starsword\engine\actor.hpp
+	"Object.hpp"
+
+1593218879 source:f:\code\projets\c++\starsword\engine\animator.cpp
+	"Animator.hpp"
+	"Actor.hpp"
+	"Animation.hpp"
+
+1593218662 f:\code\projets\c++\starsword\engine\animator.hpp
+	"Object.hpp"
+
+1593188290 f:\code\projets\c++\starsword\engine\animation.hpp
+	"Object.hpp"
+
+1593120162 source:f:\code\projets\c++\starsword\engine\animation.cpp
+	"Animation.hpp"
+
+1593264202 source:f:\code\projets\c++\starsword\game\player.cpp
+	"Player.hpp"
+	"PlayerAnimator.hpp"
+	<cmath>
+
+1593222312 f:\code\projets\c++\starsword\game\player.hpp
+	"Pawn.hpp"
+
+1593215844 source:f:\code\projets\c++\starsword\game\levelgame.cpp
+	"LevelGame.hpp"
+
+1593215152 f:\code\projets\c++\starsword\game\levelgame.hpp
+	"../Engine/Level.hpp"
+	"Player.hpp"
+
+1593222894 source:f:\code\projets\c++\starsword\game\playeranimator.cpp
+	"PlayerAnimator.hpp"
+	"Player.hpp"
+
+1593221732 f:\code\projets\c++\starsword\game\playeranimator.hpp
+	"../Engine/Animator.hpp"
+
